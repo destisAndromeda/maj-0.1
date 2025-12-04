@@ -3,6 +3,9 @@
 #include "structs.h"
 #include "defines.h"
 
+struct config con;
+struct output_data od;
+
 const char *const allowed_flags[] = {"--help", "--version", "--ed0nano", "--ed1code", "--ed2vim"};
 const unsigned int allowed_flags_length = sizeof(allowed_flags) / sizeof(*allowed_flags);
 
