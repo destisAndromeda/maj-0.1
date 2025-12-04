@@ -19,7 +19,7 @@ struct configs
     char editor_name[EDITOR_NAME_LENGTH];
 };
 
-struct configs con;
+extern struct configs con;
 
 struct output_data
 {
